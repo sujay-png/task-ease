@@ -28,3 +28,6 @@ body {
   font-family: stretch;
   font-size: 40px;
 }
+.box {
+  background-color: red;
+}
