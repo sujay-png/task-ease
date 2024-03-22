@@ -9,6 +9,7 @@ function App() {
 			{/* <div className="abosolute">
         <Base />
       </div> */}
+      hi
 			<Foreground />
 			<Box />
 		</div>
