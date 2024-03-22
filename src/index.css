@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: stretch;
+  src: url(../font/stretch.ttf);
+}
+
+:root {
+  --primary-font: stretch;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.baseH1 {
+  font-family: stretch;
+}
+.input::placeholder {
+  font-family: stretch;
+  font-size: 40px;
+}
