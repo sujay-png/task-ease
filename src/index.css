@@ -28,3 +28,18 @@ body {
   font-family: stretch;
   font-size: 40px;
 }
+
+/* Hide scrollbar for both vertical and horizontal */
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Hide scrollbar for vertical scroll */
+::-webkit-scrollbar-vertical {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Hide scrollbar for horizontal scroll */
+::-webkit-scrollbar-horizontal {
+  display: none; /* Chrome, Safari, Opera */
+}
