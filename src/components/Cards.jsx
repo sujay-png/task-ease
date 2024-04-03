@@ -70,7 +70,7 @@ function Cards({ callback, removeCallback, title, description, reference }) {
             type="submit"
             className="right-0 bottom-0 m-5 px-5 py-2 bg-zinc-700 text-slate-50 rounded"
           >
-            Add
+            Add List
           </button>
         </div>
       </form>
